@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>twitter</title>
+</head>
+<body>
+	<textarea id="my-tweet"></textarea>
+	<br>
+	<button onclick="tweetTweet">Tweet</button>
+
+</body>
+    <script>
+      function tweetTweet(){
+      var url="https://twitter.com/intent/tweet";
+      var text=document.getElementById("my-tweet.").value;
+      var hastags="hi,hello test";
+      var via="userName";
+      window.open(url+"?text="+text";hastags+hastags+";"")
+  }
+ </script>
+</html>
